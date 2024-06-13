@@ -1,5 +1,9 @@
 #(©)codeflix_bots
 
+import pyrogram.utils
+
+pyrogram.utils.MIN_CHANNEL_ID = -1002181344980
+
 from aiohttp import web
 from plugins import web_server
 
