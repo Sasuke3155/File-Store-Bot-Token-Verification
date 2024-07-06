@@ -27,7 +27,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "drapixstore")
 
 #Shortner (token system) 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.co.")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "895e8ad6d49a1c5f88e3f64efb0f3822193a9300")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', '90')) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
